@@ -1,0 +1,83 @@
+/* 设置页面背景颜色和字体样式 */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+.body{
+    margin-top: 70px;
+}
+/* 设置标题样式 */
+h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 设置表格样式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #a2c6ea;
+    color: #fff;
+}
+
+/* 设置没有找到数据的消息样式 */
+.no-data {
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+}
+/*搜索框*/
+.search-form {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    width: 150px;
+    margin-right: 10px;
+}
+.search-form button[type="submit"] {
+    padding: 5px 10px;
+}
+/*分页导航栏*/
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    margin: 0 4px;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+.pagination .current {
+    background-color: #56b7f3;
+    color: white;
+    border: 1px solid #8ad2ff;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
